@@ -20,7 +20,6 @@ function type() {
     setTimeout(erase, newTextDelay);
   }
 }
-
 function erase() {
   if (charIndex > 0) {
     if(!cursorSpan.classList.contains("typing")) cursorSpan.classList.add("typing");
